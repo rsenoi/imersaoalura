@@ -8,19 +8,19 @@ Quem nunca se viu perdido após uma consulta médica, sem lembrar exatamente par
 Aspectos Técnicos:
 
 Entrada:
-Nome do medicamento
+- Nome do medicamento
 
 Saída:
-Nome do medicamento completo
-Indicação terapêutica
-Posologia e modo de uso
-Faixa de preço do medicamento original
-Possíveis efeitos colaterais
-Disponibilidade de genérico: Sim/Não
-Faixa de preço do medicamento genérico (se disponível)
+- Nome do medicamento completo
+- Indicação terapêutica
+- Posologia e modo de uso
+- Faixa de preço do medicamento original
+- Possíveis efeitos colaterais
+- Disponibilidade de genérico: Sim/Não
+- Faixa de preço do medicamento genérico (se disponível)
 
 Arquitetura:
-Agente 1, Agente 2 => Redator => Revisor
+- Agente 1, Agente 2 => Redator => Revisor
 
 Agente de Busca ANVISA: Encarregado de consultar a base de dados da Agência Nacional de Vigilância Sanitária (ANVISA) para obter informações oficiais sobre o medicamento, como indicação, uso e efeitos colaterais.
 Agente de Busca de Preços: Responsável por pesquisar em diversos sites de e-commerce e farmácias online para coletar dados sobre a faixa de preço do medicamento original dos últimos 5 meses e, se disponível, do genérico.
